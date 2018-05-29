@@ -154,8 +154,5 @@ var JsonRenderer = {
         item.appendChild(document.createTextNode(":"));
 
         return item;
-    },
-    getThemeArray: function(count) {
-
     }
 }
