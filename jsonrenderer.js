@@ -106,7 +106,7 @@ var JsonRenderer = {
         return {value:this.getThemeNumber(JSON.stringify(number))};
     },
     renderJsonBoolean: function(boolean) {
-            return {value:this.getThemeBoolean(JSON.stringify(boolean))};
+        return {value:this.getThemeBoolean(JSON.stringify(boolean))};
     },
     getThemeKey: function(key) {
         var item = document.createElement("span")
