@@ -1,0 +1,50 @@
+.json-renderer-root {
+	font-size: 14px;
+	font-family: 'Monaco', courier, monospace;
+	line-height: 1.2rem;
+	vertical-align: middle;
+}
+.json-renderer-row {
+    margin-left: 2rem;
+}
+.json-renderer-child {
+    margin-left: 2rem;
+}
+.json-renderer-null {
+	color: #004ed0;
+}
+.json-renderer-string {
+	color: green;
+}
+.json-renderer-number {
+	color: #ee422e;
+}
+.json-renderer-boolean {
+	color: #ff8c00;
+}
+.json-renderer-count {
+	color: grey;
+}
+.json-renderer-toggle {
+	cursor: pointer;
+}
+.json-renderer-separator {
+	color: grey;
+	padding-left: 1px;
+	padding-right: 4px;
+}
+.json-renderer-toggle::before {
+	font-size: 0.7rem;
+	opacity: 0.6;
+	cursor: pointer;
+	padding-right: 0.2rem;
+	content: "\25BA";
+	margin-left:-0.6rem;
+    transform: rotate(0deg);
+    display: inline-block;
+    transition: transform 0.1s linear;
+}
+.json-renderer-toggle.open::before {
+    transform: rotate(90deg);
+    transition: transform 0.1s linear;
+}
