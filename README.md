@@ -29,5 +29,5 @@ var rendered = JsonRenderer.render({
   "string": "Hello World"
 });
 
-$('#encoded').append(rendered);
+$('#rendered').append(rendered);
 ```
