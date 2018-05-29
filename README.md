@@ -1,7 +1,7 @@
 # jsonrenderer.js
 A JavaScript library for rendering JSON objects as HTML. Requires jQuery.
 
-## Example
+## Usage
 
 ```js
 var rendered = JsonRenderer.render({
@@ -31,3 +31,7 @@ var rendered = JsonRenderer.render({
 
 $('#rendered').append(rendered);
 ```
+
+## Demo
+
+http://jsonrenderer.lee.io/
